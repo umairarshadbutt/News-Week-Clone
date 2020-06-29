@@ -19,3 +19,23 @@
   background-color: #ea4e2a;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 20% 100%);
 }
+
+.imputSearch {
+  border: none;
+  width: 50px;
+  background: #faf9fa;
+  margin-top: 5px;
+}
+
+.fa-search {
+  position: absolute;
+  margin-top: 9px;
+}
+
+.hoverRed:hover {
+  color: red;
+}
+
+.nav-link:hover {
+  color: red;
+}
