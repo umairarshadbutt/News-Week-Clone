@@ -1,0 +1,10 @@
+.subscribe-button {
+  background-color: #ffe400;
+  color: black;
+  border-radius: 24px;
+  align-items: center;
+}
+.custom-row-margin {
+  margin-right: auto;
+  margin-left: auto;
+}
