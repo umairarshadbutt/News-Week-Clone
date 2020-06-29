@@ -72,6 +72,7 @@
 }
 
 .block-title{
+  margin-top: 18px;
   font: bold 16px/16px "Roboto Condensed",sans-serif;
   text-transform: uppercase;
   padding-bottom: 11px;
@@ -107,4 +108,39 @@
   font-style: capitalize;
   
 }
+.more-stories{
+  display: flex;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border-top: 1px solid #ddd;
+}
+.more-stories p{
+  font-size: 15px;
+    line-height: 16px;
+    color: #333;
+}
+.more-stories img{
+  margin-top: 10px;
+}
+.more-stories h4 {
+  line-height: 0.56em;
+}
+.more-stories h4 a{
+  font-size: 17px;
+    color: black;
+    font-weight: 600;
+}
+.more-stories h4 a:hover{
+  text-decoration-color: red;
+}
+
+.turn a{
+  padding: 15px 0 20px;
+    color: inherit;
+    text-decoration: none;
+    font: bold 16px/19px "Roboto Condensed",sans-serif;
+    color: rgba(3,3,3,.5);
+    margin-bottom: 10px;
+}
+
 
