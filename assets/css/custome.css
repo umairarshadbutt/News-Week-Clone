@@ -9,3 +9,13 @@
   margin-right: auto;
   margin-left: auto;
 }
+
+.header-sign{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 75px;
+  height: 13px;
+  background-color: #ea4e2a;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 20% 100%);
+}
