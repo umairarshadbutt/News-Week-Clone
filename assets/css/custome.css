@@ -90,3 +90,21 @@
     padding: 8px 15px 9px;
 }
 
+.carticlesHeader {
+  font-size: 12px;
+  line-height: 0.5rem;
+  color: #757575;
+  cursor: pointer;
+}
+
+.carticlesHeader:hover {
+  text-decoration: none;
+}
+
+.line-heig {
+  line-height: 0.7rem;
+  font-size: 15px;
+  font-style: capitalize;
+  
+}
+
