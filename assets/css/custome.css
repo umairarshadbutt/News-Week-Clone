@@ -127,8 +127,8 @@
 }
 .more-stories h4 a{
   font-size: 17px;
-    color: black;
-    font-weight: 600;
+  color: black;
+  font-weight: 600;
 }
 .more-stories h4 a:hover{
   text-decoration-color: red;
@@ -143,4 +143,25 @@
     margin-bottom: 10px;
 }
 
+.more-stories2{
+  display: flex;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border-top: 1px solid #ddd;
+}
 
+.more-stories2 h4 {
+  line-height: 0.56em;
+}
+
+.more-stories2 h4 a{
+  font-size: 15px;
+  color: black;
+  font-weight:700;
+}
+
+.more-stories span{
+  font-size: 15px;
+  line-height: 16px;
+  color: #333;
+}
