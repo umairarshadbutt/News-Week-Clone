@@ -54,7 +54,39 @@
 .navbar-light .navbar-nav .nav-link:hover{
   color: red;
 }
-
-.nav-link:hover {
-  color: red;
+.card-body {
+  padding: 0.50rem;
 }
+.feature a{
+  color: black;
+  font-weight: 600;
+}
+.feature p{
+  font-size: 15px;
+  line-height: 20px;
+  color: #333;
+}
+.feature a:hover{
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+.block-title{
+  font: bold 16px/16px "Roboto Condensed",sans-serif;
+  text-transform: uppercase;
+  padding-bottom: 11px;
+  color: rgba(3,3,3,.4);
+}
+.card-image-position{
+  position: relative;
+}
+.tag {
+    color: #f72210;
+    background-color: #ffffffe6;
+    font: bold 17px/16px "Roboto Condensed", sans-serif;
+    position: absolute;
+    top: 86%;
+    height: 30px;
+    padding: 8px 15px 9px;
+}
+
