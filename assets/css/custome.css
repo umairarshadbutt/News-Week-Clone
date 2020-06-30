@@ -226,3 +226,13 @@
 .magazine-style:hover{
   background-color: #dbdcdd;
 }
+.section-heading{
+  color: red;
+  font-size: 2em;
+  font-weight: 900;
+}
+
+.section-right-anchor-tag a:hover{
+  text-decoration: none;
+  color: red;
+}
