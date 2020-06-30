@@ -2,7 +2,7 @@
 
 > This is a clone of the News Week home page.
 
-![screenshot](assets/images/thenextweb.png)
+![screenshot](assets/images/Screenshot.png)
 
 This project is a replica of the The next clone home page. It has a different news sections, which includes images, links and text content.
 
