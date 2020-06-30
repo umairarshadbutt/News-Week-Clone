@@ -150,7 +150,8 @@ footer a:hover {
   background-color: #ffffffe6;
   font: bold 17px/16px "Roboto Condensed", sans-serif;
   position: absolute;
-  top: 86%;
+  bottom: 0;
+  left: 0;
   height: 30px;
   padding: 8px 15px 9px;
 }
@@ -284,7 +285,7 @@ footer a:hover {
 
 .section-heading {
   color: red;
-  font-size: 2em;
+  font-size: 1.3em;
   font-weight: 900;
 }
 
@@ -317,4 +318,8 @@ footer a:hover {
 
 .form-div h1 {
   font-size: 15px;
+}
+
+.display-none {
+  display: none;
 }
