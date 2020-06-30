@@ -278,3 +278,29 @@
   background-color: #f72210;
   color: #f8f9fa!important;
 }
+.signup-image{
+  width: 76px;
+}
+.form-div{
+  background-color: #f4f5f6;
+  padding: 13px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.form-div h1{
+  font-size: 15px;
+}
+
+footer a{
+  color: #6c757d;
+}
+footer a:hover{
+  color: #494e52;
+}
+footer img{
+  width: 204px;
+    height: 46px;
+}
+.social a{
+  font-size: 26px;
+}
