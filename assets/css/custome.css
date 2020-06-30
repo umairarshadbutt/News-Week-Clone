@@ -1,3 +1,7 @@
+body {
+  width: 95%;
+  margin: auto;
+}
 .subscribe-button {
   background-color: #ffe400;
   color: black;
