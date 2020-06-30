@@ -162,7 +162,7 @@
   display: flex;
   padding-top: 14px;
   padding-bottom: 14px;
-  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
 }
 
 .more-stories2 h4 {
@@ -179,6 +179,23 @@
   font-size: 15px;
   line-height: 16px;
   color: #333;
+}
+
+.borderTop {
+  border-top: 3px solid rgba(235, 36, 79, 0.863);
+  border-top: 1px solid #ddd;
+}
+
+.borderBot {
+  border-bottom: 3px solid rgb(0, 204, 255);
+}
+
+.circleVs {
+  width:30px;
+  height:30px;
+  border-radius: 100%;
+  transform: translateY(-15px);
+
 }
 
 .card {
