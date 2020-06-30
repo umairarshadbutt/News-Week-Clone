@@ -17,7 +17,7 @@ This project is a replica of the The next clone home page. It has a different ne
 
 ## Live Demo
 
-To see a preview of the actual project, check out the [Live Demo Link](https://rawcdn.githack.com/umairarshadbutt/News-Week-Clone/1724ae28d0993875b58767874526e5c627b87eb4/index.html)
+To see a preview of the actual project, check out the [Live Demo Link](https://rawcdn.githack.com/umairarshadbutt/News-Week-Clone/b3cb9c77a99f260771a7ffbe7673b770f26f6ed9/index.html)
 
 
 ## Getting Started
