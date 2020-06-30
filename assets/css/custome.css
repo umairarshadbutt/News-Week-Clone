@@ -19,6 +19,16 @@ body {
   .navbar-button {
     margin-top: 0;
   }
+
+  .subscribe-button {
+    padding: 4px;
+    font-size: 12px;
+  }
+
+  .responsive-log {
+    margin-top: 7px;
+    width: 138px;
+  }
 }
 
 .custom-row-margin {
@@ -36,6 +46,11 @@ footer a {
 
 .red-header a {
   color: white;
+}
+
+.responsive-log {
+  width: 200px;
+  height: auto;
 }
 
 .color-white {
