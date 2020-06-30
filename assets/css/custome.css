@@ -91,6 +91,10 @@
   position: relative;
 }
 
+.card-image-position img {
+  cursor: pointer;
+}
+
 .tag {
   color: #f72210;
   background-color: #ffffffe6;
@@ -104,6 +108,13 @@
 .carticlesHeader {
   font-size: 12px;
   line-height: 0.5rem;
+  color: #757575;
+  cursor: pointer;
+}
+
+.formHeader{
+  font-size: 16px;
+  line-height: 1rem;
   color: #757575;
   cursor: pointer;
 }
@@ -183,7 +194,7 @@
 
 .borderTop {
   border-top: 3px solid rgba(235, 36, 79, 0.863);
-  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
 }
 
 .borderBot {
