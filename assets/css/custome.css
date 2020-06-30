@@ -25,6 +25,10 @@
   background-color: #ea4e2a;
 }
 
+footer a {
+  color: #6c757d;
+}
+
 .red-header a {
   color: white;
 }
@@ -74,6 +78,48 @@
   color: #333;
 }
 
+.social a {
+  font-size: 26px;
+}
+
+.turn a {
+  padding: 15px 0 20px;
+  text-decoration: none;
+  font: bold 16px/19px "Roboto Condensed", sans-serif;
+  color: rgba(3, 3, 3, 0.5);
+  margin-bottom: 10px;
+}
+
+footer img {
+  width: 204px;
+  height: 46px;
+}
+
+.label-2 a {
+  color: #f72210;
+  text-decoration: none;
+}
+
+.magazine-style a {
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #494e52;
+}
+
+.more-stories h4 a {
+  font-size: 17px;
+  color: black;
+  font-weight: 600;
+}
+
+.more-stories2 h4 a {
+  font-size: 15px;
+  color: black;
+  font-weight: 700;
+}
+
 .feature a:hover {
   text-decoration: underline;
   text-decoration-color: red;
@@ -112,7 +158,7 @@
   cursor: pointer;
 }
 
-.formHeader{
+.formHeader {
   font-size: 16px;
   line-height: 1rem;
   color: #757575;
@@ -150,23 +196,13 @@
   line-height: 0.56em;
 }
 
-.more-stories h4 a {
-  font-size: 17px;
-  color: black;
-  font-weight: 600;
+.section-right-anchor-tag a:hover {
+  text-decoration: none;
+  color: red;
 }
 
 .more-stories h4 a:hover {
   text-decoration-color: red;
-}
-
-.turn a {
-  padding: 15px 0 20px;
-  color: inherit;
-  text-decoration: none;
-  font: bold 16px/19px "Roboto Condensed", sans-serif;
-  color: rgba(3, 3, 3, 0.5);
-  margin-bottom: 10px;
 }
 
 .more-stories2 {
@@ -178,12 +214,6 @@
 
 .more-stories2 h4 {
   line-height: 0.56em;
-}
-
-.more-stories2 h4 a {
-  font-size: 15px;
-  color: black;
-  font-weight: 700;
 }
 
 .more-stories span {
@@ -202,11 +232,10 @@
 }
 
 .circleVs {
-  width:30px;
-  height:30px;
+  width: 30px;
+  height: 30px;
   border-radius: 100%;
   transform: translateY(-15px);
-
 }
 
 .card {
@@ -240,34 +269,26 @@
   padding-top: 6px;
 }
 
-.label-2 a {
-  color: #f72210;
-  text-decoration: none;
-}
-.magazine-style{
+.magazine-style {
   text-align: center;
   background-color: #f4f5f6;
 }
-.magazine-style a{
-  text-decoration: none;
-}
-.magazine-style:hover{
+
+.magazine-style:hover {
   background-color: #dbdcdd;
 }
-.section-heading{
+
+.section-heading {
   color: red;
   font-size: 2em;
   font-weight: 900;
 }
 
-.section-right-anchor-tag a:hover{
-  text-decoration: none;
-  color: red;
-}
-.position-relative{
+.position-relative {
   max-width: 260px;
-    margin: auto;
+  margin: auto;
 }
+
 .second-image {
   top: 10px;
   left: 80px;
@@ -276,31 +297,20 @@
 
 .buttons {
   background-color: #f72210;
-  color: #f8f9fa!important;
+  color: #f8f9fa !important;
 }
-.signup-image{
+
+.signup-image {
   width: 76px;
 }
-.form-div{
+
+.form-div {
   background-color: #f4f5f6;
   padding: 13px;
   margin-top: 12px;
   margin-bottom: 12px;
 }
-.form-div h1{
-  font-size: 15px;
-}
 
-footer a{
-  color: #6c757d;
-}
-footer a:hover{
-  color: #494e52;
-}
-footer img{
-  width: 204px;
-    height: 46px;
-}
-.social a{
-  font-size: 26px;
+.form-div h1 {
+  font-size: 15px;
 }
