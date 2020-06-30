@@ -253,3 +253,17 @@
   text-decoration: none;
   color: red;
 }
+.position-relative{
+  max-width: 260px;
+    margin: auto;
+}
+.second-image {
+  top: 10px;
+  left: 80px;
+  height: 227px;
+}
+
+.buttons {
+  background-color: #f72210;
+  color: #f8f9fa!important;
+}
