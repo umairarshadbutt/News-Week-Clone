@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>NEWSWEEK</title>
+        <link rel="icon" href="./assets/images/favicon.ico" type="image/gif" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+        <link rel="stylesheet" href="./assets/css/custome.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <script src="https://kit.fontawesome.com/f977934f89.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        
+        <div class="navbar-expand-lg navbar-light red-header">
+            <div class="row d-flex custom-row-margin">
+                <div class="col-sm-2 col-md-6 col-lg-4 col-xl-4 col-2 mr-auto p-2">
+                    <div class="d-none d-xl-block">
+                        <a href="#"> <img style="width: 40px; height: 40px;" src="./assets/images/22.webp" alt="weather" /> 37° null, PK &gt; </a><br />
+                        <span class="color-white">Sun, Jun 28, 2020</span>
+                    </div>
+                    <div class="d-xs-block d-sm-block d-md-block d-lg-block d-xl-none responsive-log1" >
+                        <a href="#"> <img class="responsive-log" src="./assets/images/news-week-logo.png" alt="logo" /> </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-xl-4 d-none d-xl-block">
+                    <a href="#"> <img style="width: 400px; height: auto;" src="./assets/images/news-week-logo.png" alt="logo" /> </a>
+                </div>
+                <div class="col-sm-10 col-md-6 col-lg-4 col-xl-4 col-10 p-2 navbar-button">
+                    <i class="fa fa-user d-md-none d-lg-none d-xl-none" aria-hidden="true"></i>
+                    <button type="button" class="btn d-none d-md-inline font-weight-bold d-lg-inline d-xl-inline color-white" data-toggle="button" aria-pressed="false">Login</button>
+                    <button type="button" class="btn subscribe-button font-weight-bold" data-toggle="button" aria-pressed="false">SUBSCRIBE <span class=" d-none d-ld-inline d-md-inline d-xl-inline"> TODAY &gt;</span></button>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light  d-lg-none d-md-none d-xl-block ">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                
+                <ul class="navbar-nav row d-flex justify-content-between ">
+                    <li class="nav-item mr-3 ml-2"><a class="nav-link font-weight-bold text-dark" href="#">U.S.</a></li>
+                    <li class="nav-item mr-3 border-left"><a class="nav-link font-weight-bold text-dark" href="#">World</a></li>
+                    <li class="nav-item mr-3 border-left"><a class="nav-link font-weight-bold text-dark" href="#">Business</a></li>
+                    <li class="nav-item mr-3 border-left"><a class="nav-link font-weight-bold text-dark" href="#">Tech & Science</a></li>
+                    <li class="nav-item mr-2 border-left"><a class="nav-link font-weight-bold text-dark" href="#">Culture</a></li>
+                    <li class="nav-item mr-2 border-left"><a class="nav-link font-weight-bold text-dark" href="#">Newsgeek</a></li>
+                    <li class="nav-item mr-3 border-left"><a class="nav-link font-weight-bold text-dark" href="#">Sports</a></li>
+                    <li class="nav-item mr-2 border-left"><a class="nav-link font-weight-bold text-dark" href="#">Health</a></li>
+                    <li class="nav-item mr-3 border-left"><a class="nav-link font-weight-bold text-dark" href="#">The Debate</a></li>
+                    <li class="nav-item mr-3 border-left"><a class="nav-link font-weight-bold text-dark" href="#">Vantage</a></li>
+                    <li class="nav-item mr-3 border-left"><a class="nav-link font-weight-bold text-dark" href="#">Weather</a></li>
+                    <li><input type="text" placeholder="Search.." name="search" class="imputSearch mr-4" /><i class="fa fa-search" aria-hidden="true"></i></li>
+                </ul>
+            </div>
+        </nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light d-md-none d-sm-none d-lg-none d-xl-block">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item mr-4"><a class="nav-link font-weight-bold text-dark" href="#">TRENDING</a></li>
+                    <li class="nav-item mr-4"><a class="nav-link font-weight-bold" href="#">DONALD TRUMP</a></li>
+                    <li class="nav-item mr-4"><a class="nav-link font-weight-bold" href="#">JOE BIDEN</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link font-weight-bold" href="#">CHINA</a></li>
+                    <li class="nav-item mr-4"><a class="nav-link font-weight-bold" href="#">CORONAVIRUS</a></li>
+                    <li class="nav-item mr-4"><a class="nav-link font-weight-bold font-dark" href="#">2020 ELECTIONS</a></li>
+                </ul>
+        </nav>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-md-4 col-lg-3 order-md-1 order-1">
+                    <div class="d-xs-block d-sm-block d-md-none d-lg-none d-xl-none">
+                        <h3 class="block-title">TOP STORY</h3>
+                        <article class="card">
+                            <div class="card-image-position">
+                                <img src="./assets/images/feature-story-img1.jpg" class="card-img-top" alt="..." />
+                                <div class="tag">U.S.</div>
+                            </div>
+                            <div class="card-body feature">
+                                <h5 class="card-title"><a href="#">SCOTUS Strikes Down Louisiana Abortion Law, Roberts Sides with Liberals</a></h5>
+                                <p class="card-text">
+                                    It's the first major abortion ruling for the high court under its new majority of members who have track records opposing abortion rights and a potentially defining moment in President Donald Trump's
+                                    presidency.
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+                    <h3 class="block-title">FEATURE STORIES</h3>
+                    <article class="card">
+                        <div class="card-image-position">
+                            <img src="./assets/images/feature-story-img1.jpg" class="card-img-top" alt="..." />
+                            <div class="tag">U.S.</div>
+                        </div>
+                        <div class="card-body feature">
+                            <h5 class="card-title"><a href="#">SCOTUS Strikes Down Louisiana Abortion Law, Roberts Sides with Liberals</a></h5>
+                            <p class="card-text">
+                                It's the first major abortion ruling for the high court under its new majority of members who have track records opposing abortion rights and a potentially defining moment in President Donald Trump's
+                                presidency.
+                            </p>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <div class="card-image-position">
+                            <img src="./assets/images/feature-story-img2.jpg" class="card-img-top" alt="..." />
+                            <div class="tag">WORLD</div>
+                        </div>
+                        <div class="card-body feature">
+                            <h5 class="card-title"><a href="#">WHO Director Warns COVID-19 Pandemic is 'Speeding Up,' Here for 'Long Haul'</a></h5>
+                            <p class="card-text">"The hard reality is, this is not even close to being over," said WHO Director-General Tedros Adhanom Ghebreyesus on Monday.</p>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <div class="card-image-position">
+                            <img src="./assets/images/feature-story-img3.jpg" class="card-img-top" alt="..." />
+                            <div class="tag">WORLD</div>
+                        </div>
+                        <div class="card-body feature">
+                            <h5 class="card-title"><a href="#">India Bans TikTok and 58 Other Chinese Apps Amid Escalating Tensions</a></h5>
+                            <p class="card-text">The government said the apps were "engaged in activities which is prejudicial to sovereignty and integrity of India."</p>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <div class="card-image-position">
+                            <img src="./assets/images/feature-story-img4.jpg" class="card-img-top" alt="..." />
+                            <div class="tag">POLITICS</div>
+                        </div>
+                        <div class="card-body feature">
+                            <h5 class="card-title"><a href="#">Obama Rebukes Trump Over 'Kung Flu' Remark: 'Shocks and Pisses Me Off'</a></h5>
+                            <p class="card-text">Former President Barack Obama rebuked Trump over his "Kung flu" coronavirus remark recently, saying it "shocks and pisses me off."</p>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <div class="card-image-position">
+                            <img src="./assets/images/feature-story-img5.jpg" class="card-img-top" alt="..." />
+                            <div class="tag">TECH & SCIENCE</div>
+                        </div>
+                        <div class="card-body feature">
+                            <h5 class="card-title"><a href="#">Facebook Boycott Is Now Hurting Twitter as Companies Pause Paid Advertising</a></h5>
+                            <p class="card-text">Shares in the Jack Dorsey-led platform plunged by roughly seven percent last week as news broke that Unilever was halting social media ad spending. Then, the situation quickly got worse.</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-12 col-md-8 col-lg-6 order-md-2 order-3">
+                    <div class="d-none d-md-block d-lg-block d-xl-block">
+                        <h3 class="block-title">TOP STORY</h3>
+                        <article class="card">
+                            <div class="card-image-position">
+                                <img src="./assets/images/feature-story-img1.jpg" class="card-img-top" alt="..." />
+                                <div class="tag">U.S.</div>
+                            </div>
+                            <div class="card-body feature">
+                                <h5 class="card-title"><a href="#">SCOTUS Strikes Down Louisiana Abortion Law, Roberts Sides with Liberals</a></h5>
+                                <p class="card-text">
+                                    It's the first major abortion ruling for the high court under its new majority of members who have track records opposing abortion rights and a potentially defining moment in President Donald Trump's
+                                    presidency.
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+                    <h3 class="block-title">MY TURN</h3>
+                    <div class="row turn">
+                        <article class="card border-0 col-md-4">
+                            <div class="card-image-position"><img src="./assets/images/feature-story-img1.jpg" class="card-img-top" alt="..." /></div>
+                            <div>
+                                <h5 class="card-text line-heig"><a href="#" class="carticlesHeader">SCOTUS Strikes Down Louisiana Abortion Law, Roberts Sides with Liberals</a></h5>
+                            </div>
+                        </article>
+                        <article class="card border-0 col-md-4">
+                            <div class="card-image-position"><img src="./assets/images/feature-story-img1.jpg" class="card-img-top" alt="..." /></div>
+                            <div>
+                                <h5 class="card-text line-heig"><a href="#" class="carticlesHeader">SCOTUS Strikes Down Louisiana Abortion Law, Roberts Sides with Liberals</a></h5>
+                            </div>
+                        </article>
+                        <article class="card border-0 col-md-4">
+                            <div class="card-image-position"><img src="./assets/images/feature-story-img1.jpg" class="card-img-top" alt="..." /></div>
+                            <div>
+                                <h5 class="card-text line-heig"><a href="#" class="carticlesHeader">SCOTUS Strikes Down Louisiana Abortion Law, Roberts Sides with Liberals</a></h5>
+                            </div>
+                        </article>
+                    </div>
+                    <h3 class="block-title">CULTURE & TRAVEL</h3>
+                    <div class="row turn">
+                        <article class="card border-0 col-md-4">
+                            <div class="card-image-position"><img src="./assets/images/feature-story-img1.jpg" class="card-img-top" alt="..." /></div>
+                            <div>
+                                <h5 class="card-text line-heig"><a href="#" class="carticlesHeader">SCOTUS Strikes Down Louisiana Abortion Law, Roberts Sides with Liberals</a></h5>
+                            </div>
+                        </article>
+                        <article class="card border-0 col-md-4">
+                            <div class="card-image-position"><img src="./assets/images/feature-story-img1.jpg" class="card-img-top" alt="..." /></div>
+                            <div>
+                                <h5 class="card-text line-heig"><a href="#" class="carticlesHeader">SCOTUS Strikes Down Louisiana Abortion Law, Roberts Sides with Liberals</a></h5>
+                            </div>
+                        </article>
+                        <article class="card border-0 col-md-4">
+                            <div class="card-image-position"><img src="./assets/images/feature-story-img1.jpg" class="card-img-top" alt="..." /></div>
+                            <div>
+                                <h5 class="card-text line-heig"><a href="#" class="carticlesHeader">SCOTUS Strikes Down Louisiana Abortion Law, Roberts Sides with Liberals</a></h5>
+                            </div>
+                        </article>
+                    </div>
+                    <div>
+                        <h3 class="block-title">More Stories</h3>
+                        <article class="row more-stories">
+                            <div class="col-4"><img src="./assets/images/feature-story-img1.jpg" alt="..." class="img-fluid" /></div>
+                            <div class="col-8">
+                                <h4 class="font-weight-bold text-dark"><a href="#">At Least 2 Shot at Amazon Fulfillment Center in Jacksonville, Sheriff Says</a></h4>
+                                <p>Sheriff's deputies and firefighters responded to a "possible shooting" today next to the Jacksonville International Airport.</p>
+                            </div>
+                        </article>
+                        <article class="row more-stories">
+                            <div class="col-4"><img src="./assets/images/feature-story-img1.jpg" alt="..." class="img-fluid" /></div>
+                            <div class="col-8">
+                                <h4 class="font-weight-bold text-dark"><a href="#">At Least 2 Shot at Amazon Fulfillment Center in Jacksonville, Sheriff Says</a></h4>
+                                <p>Sheriff's deputies and firefighters responded to a "possible shooting" today next to the Jacksonville International Airport.</p>
+                            </div>
+                        </article>
+                        <article class="row more-stories">
+                            <div class="col-4"><img src="./assets/images/feature-story-img1.jpg" alt="..." class="img-fluid" /></div>
+                            <div class="col-8">
+                                <h4 class="font-weight-bold text-dark"><a href="#">At Least 2 Shot at Amazon Fulfillment Center in Jacksonville, Sheriff Says</a></h4>
+                                <p>Sheriff's deputies and firefighters responded to a "possible shooting" today next to the Jacksonville International Airport.</p>
+                            </div>
+                        </article>
+                        <article class="row more-stories">
+                            <div class="col-4"><img src="./assets/images/feature-story-img1.jpg" alt="..." class="img-fluid" /></div>
+                            <div class="col-8">
+                                <h4 class="font-weight-bold text-dark"><a href="#">At Least 2 Shot at Amazon Fulfillment Center in Jacksonville, Sheriff Says</a></h4>
+                                <p>Sheriff's deputies and firefighters responded to a "possible shooting" today next to the Jacksonville International Airport.</p>
+                            </div>
+                        </article>
+                        <article class="row more-stories">
+                            <div class="col-4"><img src="./assets/images/feature-story-img1.jpg" alt="..." class="img-fluid" /></div>
+                            <div class="col-8">
+                                <h4 class="font-weight-bold text-dark"><a href="#">At Least 2 Shot at Amazon Fulfillment Center in Jacksonville, Sheriff Says</a></h4>
+                                <p>Sheriff's deputies and firefighters responded to a "possible shooting" today next to the Jacksonville International Airport.</p>
+                            </div>
+                        </article>
+                        <article class="row more-stories">
+                            <div class="col-4"><img src="./assets/images/feature-story-img1.jpg" alt="..." class="img-fluid" /></div>
+                            <div class="col-8">
+                                <h4 class="font-weight-bold text-dark"><a href="#">At Least 2 Shot at Amazon Fulfillment Center in Jacksonville, Sheriff Says</a></h4>
+                                <p>Sheriff's deputies and firefighters responded to a "possible shooting" today next to the Jacksonville International Airport.</p>
+                            </div>
+                        </article>
+                        <article class="row more-stories">
+                            <div class="col-4"><img src="./assets/images/feature-story-img1.jpg" alt="..." class="img-fluid" /></div>
+                            <div class="col-8">
+                                <h4 class="font-weight-bold text-dark"><a href="#">At Least 2 Shot at Amazon Fulfillment Center in Jacksonville, Sheriff Says</a></h4>
+                                <p>Sheriff's deputies and firefighters responded to a "possible shooting" today next to the Jacksonville International Airport.</p>
+                            </div>
+                        </article>
+                        <article class="row more-stories">
+                            <div class="col-4"><img src="./assets/images/feature-story-img1.jpg" alt="..." class="img-fluid" /></div>
+                            <div class="col-8">
+                                <h4 class="font-weight-bold text-dark"><a href="#">At Least 2 Shot at Amazon Fulfillment Center in Jacksonville, Sheriff Says</a></h4>
+                                <p>Sheriff's deputies and firefighters responded to a "possible shooting" today next to the Jacksonville International Airport.</p>
+                            </div>
+                        </article>
+                        <article class="row more-stories">
+                            <div class="col-4"><img src="./assets/images/feature-story-img1.jpg" alt="..." class="img-fluid" /></div>
+                            <div class="col-8">
+                                <h4 class="font-weight-bold text-dark"><a href="#">At Least 2 Shot at Amazon Fulfillment Center in Jacksonville, Sheriff Says</a></h4>
+                                <p>Sheriff's deputies and firefighters responded to a "possible shooting" today next to the Jacksonville International Airport.</p>
+                            </div>
+                        </article>
+                        <article class="row more-stories">
+                            <div class="col-4"><img src="./assets/images/feature-story-img1.jpg" alt="..." class="img-fluid" /></div>
+                            <div class="col-8">
+                                <h4 class="font-weight-bold text-dark"><a href="#">At Least 2 Shot at Amazon Fulfillment Center in Jacksonville, Sheriff Says</a></h4>
+                                <p>Sheriff's deputies and firefighters responded to a "possible shooting" today next to the Jacksonville International Airport.</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3 order-md-3 order-2">
+                    <h3 class="block-title">THE DEBATE</h3>
+                    <article class="row more-stories2 borderTop">
+                        <div class="col-4"><img src="./assets/images/lyman-stone-w-bradford-wilcox.png" alt="..." class="img-fluid" /></div>
+                        <div class="col-8">
+                            <h4 class="font-weight-bold text-dark"><a href="#">Empty Cradles Means a Bleaker Future</a></h4>
+                            <span class="font-weight-bold"> BY Lyman Stone and W. Bradford Wilcox</span>
+                        </div>
+                    </article>
+                    <div class="d-flex justify-content-center"><div class="circleVs font-weight-bold text-light bg-dark d-flex justify-content-center align-items-center position-absolute">VS</div></div>
+
+                    <article class="row more-stories2 borderBot">
+                        <div class="col-8">
+                            <h4 class="font-weight-bold text-dark"><a href="#">Falling Birthrates Are No Big Deal</a></h4>
+                            <span class="font-weight-bold">BY MARINA ASHADE</span>
+                        </div>
+                        <div class="col-4"><img src="./assets/images/marina-adshade.png" alt="..." class="img-fluid" /></div>
+                    </article>
+                    <h3 class="block-title">OPINION</h3>
+                    <article class="row more-stories2">
+                        <div class="col-4"><img src="./assets/images/dk-smith.png" alt="..." class="img-fluid" /></div>
+                        <div class="col-8">
+                            <h4 class="font-weight-bold text-dark"><a href="#">Forget Police Reform. We Must Fully Reimagine the Force </a></h4>
+                            <span class="font-weight-bold carticlesHeader">BY DENARIO DAVIS</span>
+                        </div>
+                    </article>
+                    <article class="row more-stories2">
+                        <div class="col-4"><img src="./assets/images/jennifer-taub.png" alt="..." class="img-fluid" /></div>
+                        <div class="col-8">
+                            <h4 class="font-weight-bold text-dark"><a href="#">The Conservative Argument for Coronavirus Masks</a></h4>
+                            <span class="font-weight-bold carticlesHeader">BY JENNIFET TAUBS</span>
+                        </div>
+                    </article>
+                    <article class="row more-stories2">
+                        <div class="col-4"><img src="./assets/images/jason-rantz.png" alt="..." class="img-fluid" /></div>
+                        <div class="col-8">
+                            <h4 class="font-weight-bold text-dark"><a href="#">Are These Supreme Court Justices Traitors to the Conservative Cause?</a></h4>
+                            <span class="font-weight-bold carticlesHeader">BY JASON RATS</span>
+                        </div>
+                    </article>
+                    <article class="row more-stories2">
+                        <div class="col-4"><img src="./assets/images/joseph-uscinski.png" alt="..." class="img-fluid" /></div>
+                        <div class="col-8">
+                            <h4 class="font-weight-bold text-dark"><a href="#">Trump's Re-Election Playbook in 25 Steps</a></h4>
+                            <span class="font-weight-bold carticlesHeader">BY BRANDFORD WILCOX</span>
+                        </div>
+                    </article>
+                    <article class="row more-stories2">
+                        <div class="col-4"><img src="./assets/images/jennifer-taub.png" alt="..." class="img-fluid" /></div>
+                        <div class="col-8">
+                            <h4 class="font-weight-bold text-dark"><a href="#">The Propaganda Media's Polling Offensive</a></h4>
+                            <span class="font-weight-bold carticlesHeader">BY JENNIFET TAUBS</span>
+                        </div>
+                    </article>
+                    <article class="row more-stories2">
+                        <div class="col-4"><img src="./assets/images/joseph-uscinski.png" alt="..." class="img-fluid" /></div>
+                        <div class="col-8">
+                            <h4 class="font-weight-bold text-dark"><a href="#">Trump's Re-Election Playbook in 25 Steps</a></h4>
+                            <span class="font-weight-bold carticlesHeader">BY JOSEPH USCINSKI</span>
+                        </div>
+                    </article>
+                    <form>
+                       <div class="form-div">
+                        <div class="form-group">
+                            <header class="border-bottom d-flex align-items-center justify-content-center pb-3 mt-4">
+                                <span class="logo mr-2 signup-image"></span>
+                                <h1 class="font-weight-bold m-0">START YOUR DAY WITH OUR TOP 5 ARTICLES</h1>
+                            </header>
+                      
+                          <input type="email" class="form-control" placeholder="Email address">
+                          
+                        </div>
+                        <button type="submit" class="btn btn-danger btn-lg btn-block mb-4">FREE SIGN UP</button>
+                       </div>
+                      </form>
+                    <article class="card">
+                        <div class="card-image-position">
+                            <img src="./assets/images/infection-prevention-products-banner.jpg" class="card-img-top" alt="..." />
+                            <div class="tag text-primary">RANKINGS</div>
+                        </div>
+                        <div class="card-body feature">
+                            <h5 class="card-title"><a href="#">WHO Director Warns COVID-19 Pandemic is 'Speeding Up,' Here for 'Long Haul'</a></h5>
+                            <p class="card-text">"The hard reality is, this is not even close to being over," said WHO Director-General Tedros Adhanom Ghebreyesus on Monday.</p>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <div class="card-image-position">
+                            <img src="./assets/images/worlds-best-specialized-hospitals-2021.png" class="card-img-top" alt="..." />
+                        </div>
+                        <div class="card-body feature">
+                            <h5 class="card-title"><a href="#">WHO Director Warns COVID-19 Pandemic is 'Speeding Up,' Here for 'Long Haul'</a></h5>
+                            <p class="card-text">"The hard reality is, this is not even close to being over," said WHO Director-General Tedros Adhanom Ghebreyesus on Monday.</p>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <div class="card-image-position">
+                            <img src="./assets/images/addiction-treatment-centers-2020.jpg" class="card-img-top" alt="..." />
+                            <div class="tag text-primary">SURVEY</div>
+                        </div>
+                        <div class="card-body feature">
+                            <h5 class="card-title"><a href="#">WHO Director Warns COVID-19 Pandemic is 'Speeding Up,' Here for 'Long Haul'</a></h5>
+                            <p class="card-text">"The hard reality is, this is not even close to being over," said WHO Director-General Tedros Adhanom Ghebreyesus on Monday.</p>
+                            
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <header class="border-bottom d-flex align-items-center justify-content-center pb-3 mt-4">
+                <span class="logo mr-2" style="width: 35px;"></span>
+                <h1 class="font-weight-bold m-0" style="font-size: 18px;">IN THE MAGAZINE</h1>
+            </header>
+            <div class="row mt-3">
+                <div class="col-12 col-md-3 col-lg-3 col-xl-3">
+                    <article class="card">
+                        <h2 class="d-none">&nbsp;&nbsp;</h2>
+                        <div class="card-image-position">
+                            <img src="./assets/images/mg1.jpg" class="card-img-top" alt="..." />
+                            <div class="tag">JULY 03 ISSUES</div>
+                        </div>
+                       
+                        <div class="card-body feature magazine-style">
+                            <a href="#">See All Features &gt;</a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-12 col-md-3 col-lg-3 col-xl-3">
+                    <article class="card mt-4">
+                        <div class="card-image-position">
+                            <img src="./assets/images/mg2.jpg" class="card-img-top" alt="..." />
+                        </div>
+                        <div class="label flex-h">
+                            <span class="label-1">
+                                COVER
+                            </span>
+
+                            <span class="label-2">
+                                <a href="#">U.S</a>
+                            </span>
+                        </div>
+                        <div class="card-body feature">
+                            <h5 class="card-title"><a href="#">Police Reform Alone Won't Stop Another George Floyd from Being Murdered</a></h5>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-12 col-md-3 col-lg-3 col-xl-3">
+                    <article class="card mt-4">
+                        <div class="card-image-position">
+                            <img src="./assets/images/mg3.jpg" class="card-img-top" alt="..." />
+                        </div>
+                        <div class="label flex-h">
+                            <span class="label-1">
+                                FEATURES
+                            </span>
+
+                            <span class="label-2">
+                                <a href="#">OPINION</a>
+                            </span>
+                        </div>
+                        <div class="card-body feature">
+                            <h5 class="card-title"><a href="#">Check-the-Box Training Won't Work. Communities Of Color Must Drive Policing</a></h5>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-12 col-md-3 col-lg-3 col-xl-3">
+                    <article class="card mt-4">
+                        <div class="card-image-position">
+                            <img src="./assets/images/mg4.jpg" class="card-img-top" alt="..." />
+                        </div>
+                        <div class="label flex-h">
+                            <span class="label-1">
+                                PERISCOPE
+                            </span>
+
+                            <span class="label-2">
+                                <a href="#">BUSINESS</a>
+                            </span>
+                        </div>
+                        <div class="card-body feature">
+                            <h5 class="card-title"><a href="#">Mark Cuban Talks Race and Robotics</a></h5>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-3 col-lg-3 col-xl-3">
+                    <article class="card mt-4">
+                        <div class="card-image-position">
+                            <img src="./assets/images/mg5.jpg" class="card-img-top" alt="..." />
+                        </div>
+                        <div class="label flex-h">
+                            <span class="label-1">
+                                PERISCOPE
+                            </span>
+
+                            <span class="label-2">
+                                <a href="#">CUTURE</a>
+                            </span>
+                        </div>
+                        <div class="card-body feature">
+                            <h5 class="card-title"><a href="#">Governors Can't Pick and Choose Constitutional Rights</a></h5>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-12 col-md-3 col-lg-3 col-xl-3">
+                    <article class="card mt-4">
+                        <div class="card-image-position">
+                            <img src="./assets/images/mg6.jpg" class="card-img-top" alt="..." />
+                        </div>
+                        <div class="label flex-h">
+                            <span class="label-1">
+                                DOWNTIME
+                            </span>
+
+                            <span class="label-2">
+                                <a href="#">CULTURE</a>
+                            </span>
+                        </div>
+                        <div class="card-body feature">
+                            <h5 class="card-title"><a href="#">Khruangbin's New Album Mordechai</a></h5>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-12 col-md-3 col-lg-3 col-xl-3">
+                    <article class="card mt-4">
+                        <div class="card-image-position">
+                            <img src="./assets/images/mg7.jpg" class="card-img-top" alt="..." />
+                        </div>
+                        <div class="label flex-h">
+                            <span class="label-1">
+                                DOWNTIME
+                            </span>
+
+                            <span class="label-2">
+                                <a href="#">CULTURE</a>
+                            </span>
+                        </div>
+                        <div class="card-body feature">
+                            <h5 class="card-title"><a href="#">Matty Healy On The 1975's New Album 'Notes On A Conditional Form'</a></h5>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-12 col-md-3 col-lg-3 col-xl-3">
+                    <article class="card mt-4">
+                        <div class="card-image-position">
+                            <img src="./assets/images/mg8.png" class="card-img-top" alt="..." />
+                        </div>
+                        <div class="label flex-h">
+                            <span class="label-1">
+                                IN FOCUS
+                            </span>
+                        </div>
+                        <div class="card-body feature">
+                            <h5 class="card-title"><a href="#">FREEDOM</a></h5>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+        <div class="container border-bottom">
+            <header class="border-bottom d-flex align-items-center justify-content-center pb-3 mt-4">
+                <span class="logo mr-2" style="width: 35px;"></span>
+                <h1 class="font-weight-bold m-0" style="font-size: 18px;">EDITOR'S PICK</h1>
+            </header>
+            <div class="row mt-3">
+                <div class="col-12 col-md-3 col-lg-3 col-xl-3">
+                    <article class="card">
+                        <div class="card-image-position">
+                            <img src="./assets/images/editor1.jpg" class="card-img-top" alt="..." />
+                        </div>
+                        <div class="card-body feature">
+                            <h5 class="card-title"><a href="#">Texas Coronavirus Outbreak Takes 'Dangerous Turn,' 5,000 New Cases Each Day</a></h5>
+                            <p class="card-text">Daily hospitalizations in the state also climbed past 5,000 for three consecutive days from June 26 to 28.</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-12 col-md-3 col-lg-3 col-xl-3">
+                    <article class="card">
+                        <div class="card-image-position">
+                            <img src="./assets/images/editor2.jpg" class="card-img-top" alt="..." />
+                        </div>
+                        <div class="card-body feature">
+                            <h5 class="card-title"><a href="#">Dazzling Double Rainbow Appears Over NYC on Pride Parade 50th Anniversary</a></h5>
+                            <p class="card-text">New Yorkers documented the heartwarming scene on social media.</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-12 col-md-3 col-lg-3 col-xl-3">
+                    <article class="card">
+                        <div class="card-image-position">
+                            <img src="./assets/images/editor3.jpg" class="card-img-top" alt="..." />
+                        </div>
+                        <div class="card-body feature">
+                            <h5 class="card-title"><a href="#">U.K. Divided Over Whether Queen Should Support Black Lives Matter: Poll</a></h5>
+                            <p class="card-text">Queen Elizabeth II's silence on Black Lives Matter has split opinion in Britain, with young people taking the view that she should speak out, exclusive polling for Newsweek reveals.</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-12 col-md-3 col-lg-3 col-xl-3">
+                    <article class="card">
+                        <div class="card-image-position">
+                            <img src="./assets/images/editor4.jpg" class="card-img-top" alt="..." />
+                        </div>
+                        <div class="card-body feature">
+                            <h5 class="card-title"><a href="#">'Change is Hard' Mississippi Rep. Says of State's Confederate Flag Removal</a></h5>
+                            <p class="card-text">Legislators are expected to start voting on Sunday to change Mississippi's 126-year-old state flag, which features a Confederate battle emblem that has long been decried as racist.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-3 col-lg-3 col-xl-3">
+                    <article class="card">
+                        <div class="card-image-position">
+                            <img src="./assets/images/editor5.jpg" class="card-img-top" alt="..." />
+                        </div>
+                        <div class="card-body feature">
+                            <h5 class="card-title"><a href="#">Q&A: Companies Are Giving Big During COVID-19. Do They Really Mean It?</a></h5>
+                            <p class="card-text">Discussion with consultant Susan McPherson on the ups and downs of corporate philanthropy during COVID-19</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-12 col-md-3 col-lg-3 col-xl-3">
+                    <article class="card">
+                        <div class="card-image-position">
+                            <img src="./assets/images/editor6.jpg" class="card-img-top" alt="..." />
+                        </div>
+                        <div class="card-body feature">
+                            <h5 class="card-title"><a href="#">What's Coming to Amazon Prime Video in July 2020? Full List of Releases</a></h5>
+                            <p class="card-text">It's raining originals over on Amazon Prime Video in July.</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-12 col-md-3 col-lg-3 col-xl-3">
+                    <article class="card">
+                        <div class="card-image-position">
+                            <img src="./assets/images/editor7.jpg" class="card-img-top" alt="..." />
+                        </div>
+                        <div class="card-body feature">
+                            <h5 class="card-title"><a href="#">Musk Urges COVID-19 Retests Due to 'Ridiculous Number' of False Positives</a></h5>
+                            <p class="card-text">"There are a ridiculous number of false positive C19 tests, in some cases ~50%," the Tesla and SpaceX boss tweeted today about the surging novel coronavirus.</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-12 col-md-3 col-lg-3 col-xl-3">
+                    <article class="card">
+                        <div class="card-image-position">
+                            <img src="./assets/images/editor8.jpg" class="card-img-top" alt="..." />
+                        </div>
+                        <div class="card-body feature">
+                            <h5 class="card-title"><a href="#">Was Coronavirus Really in Europe in March 2019? Wastewater Study Explained</a></h5>
+                            <p class="card-text">The sample came from Barcelona, Spain. Researchers have suggested the virus could have been circulating in the city long before cases were officially reported.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="col-md-12 border-bottom mb-3 mt-4 feature">
+                <h3 class="col-md-12 section-heading">U.S.</h3>
+                <div class="row">
+                    <article class="col-md-4">
+                        <h2 class="d-none">&nbsp;&nbsp;</h2>
+                        <img src="./assets/images/us1.jpg" alt=" picture" class="w-100" />
+                        <a href="#">Most People Still Awaiting Stimulus Checks Face Delay to 2021: Report</a>
+                    </article>
+                    <article class="col-md-4">
+                        <h2 class="d-none">&nbsp;&nbsp;</h2>
+                        <img src="./assets/images/us2.jpg" alt=" picture" class="w-100" />
+                        <a href="#"> Oklahoma Man Allegedly Shot Woman Who Tried to Steal His Swastika Flag</a>
+                    </article>
+                    <div class="col-md-4 section-right-anchor-tag">
+                        <article class="media border-bottom mb-2">
+                            <h2 class="d-none">&nbsp;&nbsp;</h2>
+                            <img src="./assets/images/us3.jpg" alt=" picture" class="mr-3 mb-2" style="width: 100px;" />
+                            <a href="#"> San Quentin Reports 1,101 New Cases of Coronavirus in Two Weeks</a>
+                        </article>
+                        <article class="media border-bottom mb-2">
+                            <h2 class="d-none">&nbsp;&nbsp;</h2>
+                            <img src="./assets/images/us4.jpg" alt=" picture" class="mr-3 mb-2" style="width: 100px;" />
+                            <a href="#"> Pentagon Bans These 3 States For Travel By U.S. Service Members</a>
+                        </article>
+                        <article class="media mb-2">
+                            <h2 class="d-none">&nbsp;&nbsp;</h2>
+                            <img src="./assets/images/us5.jpg" alt=" picture" class="mr-3 mb-2" style="width: 100px;" />
+                            <a href="#"> Democrats Pledge to Bar Non-Mask Using Republicans from COVID-19 Hearings</a>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="col-md-12 border-bottom mb-3 mt-4 feature">
+                <h3 class="col-md-12 section-heading">WORLD</h3>
+                <div class="row">
+                    <article class="col-md-4">
+                        <h2 class="d-none">&nbsp;&nbsp;</h2>
+                        <img src="./assets/images/world1.jpg" alt=" picture" class="w-100" />
+                        <a href="#">Racism Makes Chinese Students in U.S. More Likely to Support Beijing: Study</a>
+                    </article>
+                    <article class="col-md-4">
+                        <h2 class="d-none">&nbsp;&nbsp;</h2>
+                        <img src="./assets/images/world2.jpg" alt=" picture" class="w-100" />
+                        <a href="#"> An Italian Pharmacist-Mayor's Lesson from Testing His Town to Save a Region</a>
+                    </article>
+                    <div class="col-md-4 section-right-anchor-tag">
+                        <article class="media border-bottom mb-2">
+                            <h2 class="d-none">&nbsp;&nbsp;</h2>
+                            <img src="./assets/images/world3.jpg" alt=" picture" class="mr-3 mb-2" style="width: 100px;" />
+                            <a href="#"> Boris Johnson Pledges Billions in 'New Deal' to Rebuild U.K. Economy</a>
+                        </article>
+                        <article class="media border-bottom mb-2">
+                            <h2 class="d-none">&nbsp;&nbsp;</h2>
+                            <img src="./assets/images/world4.jpg" alt=" picture" class="mr-3 mb-2" style="width: 100px;" />
+                            <a href="#"> Citing Safety, Hong Kong Democracy Groups Close Facing China Security Law</a>
+                        </article>
+                        <article class="media  mb-2">
+                            <h2 class="d-none">&nbsp;&nbsp;</h2>
+                            <img src="./assets/images/world5.jpg" alt=" picture" class="mr-3 mb-2" style="width: 100px;" />
+                            <a href="#">First Local Lockdown in U.K. after Rise in COVID-19 Cases</a>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="col-md-12 border-bottom mb-3 mt-4 feature">
+                <h3 class="col-md-12 section-heading">Business</h3>
+                <div class="row">
+                    <article class="col-md-4">
+                        <h2 class="d-none">&nbsp;&nbsp;</h2>
+                        <img src="./assets/images/b1.jpg" alt=" picture" class="w-100" />
+                        <a href="#">In Good Company: 50 U.S. Businesses That Stood Out During the Pandemic</a>
+                    </article>
+                    <article class="col-md-4">
+                        <h2 class="d-none">&nbsp;&nbsp;</h2>
+                        <img src="./assets/images/b2.jpg" alt=" picture" class="w-100" />
+                        <a href="#"> Trader Joe's Shopper Kicked Out for Refusing to Wear Mask, Blames Democrats</a>
+                    </article>
+                    <div class="col-md-4 section-right-anchor-tag">
+                        <article class="media border-bottom mb-2">
+                            <h2 class="d-none">&nbsp;&nbsp;</h2>
+                            <img src="./assets/images/b3.jpg" alt=" picture" class="mr-3 mb-2" style="width: 100px;" />
+                            <a href="#"> Mark Zuckerberg Drops Out of Top 3 Richest People Amid Facebook Ad Boycott</a>
+                        </article>
+                        <article class="media border-bottom mb-2">
+                            <h2 class="d-none">&nbsp;&nbsp;</h2>
+                            <img src="./assets/images/b4.jpg" alt=" picture" class="mr-3 mb-2" style="width: 100px;" />
+                            <a href="#"> Several Airlines Booking to Full Capacity Prompt Concerns Over COVID-19</a>
+                        </article>
+                        <article class="media mb-2">
+                            <h2 class="d-none">&nbsp;&nbsp;</h2>
+                            <img src="./assets/images/b5.jpg" alt=" picture" class="mr-3 mb-2" style="width: 100px;" />
+                            <a href="#">New Stimulus Will Help Businesses, Not Individuals: White House Adviser</a>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="col-md-12 border-bottom mb-3 mt-4 feature">
+                <h3 class="col-md-12 section-heading">Tech & Science</h3>
+                <div class="row">
+                    <article class="col-md-4">
+                        <h2 class="d-none">&nbsp;&nbsp;</h2>
+                        <img src="./assets/images/ts1.jpg" alt=" picture" class="w-100" />
+                        <a href="#">An Extremely Bright Star Has 'Disappeared' And Scientists Aren't Sure Why</a>
+                    </article>
+                    <article class="col-md-4">
+                        <h2 class="d-none">&nbsp;&nbsp;</h2>
+                        <img src="./assets/images/ts2.jpg" alt=" picture" class="w-100" />
+                        <a href="#"> We Have Helped Make the South Pole One of Earth's Fastest Warming Places</a>
+                    </article>
+                    <div class="col-md-4 section-right-anchor-tag">
+                        <article class="media border-bottom mb-2">
+                            <h2 class="d-none">&nbsp;&nbsp;</h2>
+                            <img src="./assets/images/ts3.jpg" alt=" picture" class="mr-3 mb-2" style="width: 100px;" />
+                            <a href="#"> Guillotine Placed Outside Jeff Bezos' D.C. Home by Anti-Amazon Protesters</a>
+                        </article>
+                        <article class="media border-bottom mb-2">
+                            <h2 class="d-none">&nbsp;&nbsp;</h2>
+                            <img src="./assets/images/ts4.jpg" alt=" picture" class="mr-3 mb-2" style="width: 100px;" />
+                            <a href="#"> Panasonic Toughbook A3 Review: The Essential Tablet for Essential Workers</a>
+                        </article>
+                        <article class="media mb-2">
+                            <h2 class="d-none">&nbsp;&nbsp;</h2>
+                            <img src="./assets/images/ts5.jpg" alt=" picture" class="mr-3 mb-2" style="width: 100px;" />
+                            <a href="#"> 'Godzilla' Sahara Dust Cloud Update: Second Wave Set to Reach Gulf Coast</a>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="col-md-12 border-bottom mb-3 mt-4 feature">
+                <h3 class="col-md-12 section-heading">Culture</h3>
+                <div class="row">
+                    <article class="col-md-4">
+                        <h2 class="d-none">&nbsp;&nbsp;</h2>
+                        <img src="./assets/images/gun-toting-couple-inspires-karens-got-gun.jpg" alt=" picture" class="w-100" />
+                        <a href="#">Gun-Toting Couple Inspires 'Karen's Got a Gun' Aerosmith Song Parody</a>
+                    </article>
+                    <article class="col-md-4">
+                        <h2 class="d-none">&nbsp;&nbsp;</h2>
+                        <img src="./assets/images/terry-crews.jpg" alt=" picture" class="w-100" />
+                        <a href="#">Terry Crews Says Black Lives Matter Shouldn't Be 'Black Lives Are Better'</a>
+                    </article>
+                    <div class="col-md-4 section-right-anchor-tag">
+                        <article class="media border-bottom mb-2">
+                            <h2 class="d-none">&nbsp;&nbsp;</h2>
+                            <img src="./assets/images/ted-cruz.jpg" alt=" picture" class="mr-3 mb-2" style="width: 100px;" />
+                            <a href="#">Parler, the Ted Cruz-Approved 'Free Speech' App, Is Already Banning Users</a>
+                        </article>
+                        <article class="media border-bottom mb-2">
+                            <h2 class="d-none">&nbsp;&nbsp;</h2>
+                            <img src="./assets/images/carl-reiner.jpg" alt=" picture" class="mr-3 mb-2" style="width: 100px;" />
+                            <a href="#">From Mel Brooks to Conan: The Most Memorable Carl Reiner TV Appearances</a>
+                        </article>
+                        <article class="media mb-2">
+                            <h2 class="d-none">&nbsp;&nbsp;</h2>
+                            <img src="./assets/images/order-season-2-alyssa-drake-dead.jpg" alt=" picture" class="mr-3 mb-2" style="width: 100px;" />
+                            <a href="#">5 Plots We Are Sure to See in 'The Order' Season 3</a>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="col-md-12 border-bottom mb-3 mt-4 feature">
+                <h3 class="col-md-12 section-heading">Sports</h3>
+                <div class="row">
+                    <article class="col-md-4">
+                        <h2 class="d-none">&nbsp;&nbsp;</h2>
+                        <img src="./assets/images/ryan-zimmerman-washington-nationals.jpg" alt=" picture" class="w-100" />
+                        <a href="#">Which Players Have Opted Out of MLB Season Restart?</a>
+                    </article>
+                    <article class="col-md-4">
+                        <h2 class="d-none">&nbsp;&nbsp;</h2>
+                        <img src="./assets/images/washington-redskins-nfl.jpg" alt=" picture" class="w-100" />
+                        <a href="#">Ron Rivera Dismisses Redskins Name Change as 'Discussion for Another Time'</a>
+                    </article>
+                    <div class="col-md-4 section-right-anchor-tag">
+                        <article class="media border-bottom mb-2">
+                            <h2 class="d-none">&nbsp;&nbsp;</h2>
+                            <img src="./assets/images/state-farm-arena-atlanta-hawks.jpg" alt=" picture" class="mr-3 mb-2" style="width: 100px;" />
+                            <a href="#">Atlanta Hawks Offer Arena to Help City Plagued by Voter Suppression Claims</a>
+                        </article>
+                        <article class="media border-bottom mb-2">
+                            <h2 class="d-none">&nbsp;&nbsp;</h2>
+                            <img src="./assets/images/home-game-calcio-storico.jpg" alt=" picture" class="mr-3 mb-2" style="width: 100px;" />
+                            <a href="#">'Home Game' on Netflix Told the Bloody Story of Florence's Calcio Storico</a>
+                        </article>
+                        <article class="media mb-2">
+                            <h2 class="d-none">&nbsp;&nbsp;</h2>
+                            <img src="./assets/images/ian-desmond-mlb.jpg" alt=" picture" class="mr-3 mb-2" style="width: 100px;" />
+                            <a href="#">Ian Desmond Praised For Heartfelt Essay on Why He Won't Play 2020 Season</a>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="container-fluid">
+                <div class="row mt-2 mb-4">
+                    <div class="aside col-lg-8 px-0 mr-lg-4">
+                        <h6 class="font-weight-bold section-heading">SUBSCRIBE</h6>
+                        <div class="row jumbotron mx-auto py-4">
+                            <div class="col-md-5 p-0 position-relative">
+                                <img src="./assets/images/chines.jpg" alt="picture" />
+                                <img class="second-image position-absolute" src="./assets/images/mg1.jpg" alt="picture" />
+                            </div>
+                            <div class="col-md-7 ml-3 text-center text-md-left py-4">
+                                <h4 class="font-weight-bold">In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</h4>
+                                <p class="font-weight-light">All Access + Weekly Delivery. Choose A Membership That's Perfect for You!</p>
+                                <button class="mt-2 btn buttons" type="button">SUBSCRIBE &gt;</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="aside col-lg">
+                        <h6 class="font-weight-bold section-heading">NEWSLETTER</h6>
+                        <div class="row border">
+                            <img src="./assets/images/newsletter.png" alt="picture" class="d-none d-md-flex p-0 col-md-4 col-lg-6" />
+                            <div class="col-md-8 col-lg px-3 text-center py-3">
+                                <h4 class="font-weight-bold text-capitalize text-center text-md-left">the starting 5</h4>
+                                <p class="font-weight-light text-center text-md-left">See why nearly a quarter of a million subscribers begin their day with the Starting 5.</p>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Email address" />
+                                </div>
+                                <button class="mt-2 btn buttons btn-block" type="button">SIGN UP &gt;</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="border-top p-2 px-4">
+            <div class="d-md-flex justify-content-between">
+                <div class="d-md-flex align-items-end mb-1">
+                    <a href="#"><img src="./assets/images/footer.png" alt="picture"></a>
+                    <span class="d-flex align-items-end font-weight-light">© 2020 NEWSWEEK
+                    </span>
+                </div>
+                <div class="social d-flex align-items-end">
+                    <a href="#" class="mr-2 text-muted"><i class="fa fa-facebook-square"></i></a>
+                    <a href="#" class="mr-2 text-muted"><i class="fa fa-twitter"></i></a>
+                    <a href="#" class="mr-2 text-muted"><i class="fa fa-instagram"></i></a>
+                    <a href="#" class="mr-2 text-muted"><i class="fa fa-tumblr"></i></a>
+                    <a href="#" class="mr-2 text-muted"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="border-top pt-1 pb-3">
+                <div class="d-flex">
+                    <span class="text-capitalize text-secondary mt-1 pt-1 font-weight-bold mr-2">editions:</span>
+                    <ul class="nav footers">
+                        <li class="nav-item pr-2">
+                            <a class="  nav-link" href="#">U.S Edition</a>
+                        </li>
+                        <li class="nav-item pr-2">
+                            <a class="  nav-link" href="#">Pakistan</a>
+                        </li>
+                        <li class="nav-item pr-2">
+                            <a class="  nav-link" href="#">Polska</a>
+                        </li>
+                        <li class="nav-item pr-2">
+                            <a class="  nav-link" href="#">Romania</a>
+                        </li>
+                        <li class="nav-item pr-2">
+                            <a class="  nav-link" href="#">Pidgin</a>
+                        </li>
+                    </ul>
+                </div>
+                <ul class="nav footer-links footers">
+                    <li class="nav-item pr-2">
+                        <a class="pl-0 nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item pr-2">
+                        <a class="pl-0 nav-link" href="#">Corrections</a>
+                    </li>
+                    <li class="nav-item pr-2">
+                        <a class="pl-0 nav-link" href="#">Contact Us</a>
+                    </li>
+                    <li class="nav-item pr-2">
+                        <a class="pl-0 nav-link" href="#">Editorial Guideline</a>
+                    </li>
+                    <li class="nav-item pr-2">
+                        <a class="pl-0 nav-link" href="#">Advertize</a>
+                    </li>
+                    <li class="nav-item pr-2">
+                        <a class="pl-0 nav-link" href="#">Copyright</a>
+                    </li>
+                    <li class="nav-item pr-2">
+                        <a class="pl-0 nav-link" href="#">Terms Conditions</a>
+                    </li>
+                    <li class="nav-item pr-2">
+                        <a class="pl-0 nav-link" href="#">Privacy Policy</a>
+                    </li>
+                    <li class="nav-item pr-2">
+                        <a class="pl-0 nav-link" href="#">Cookie Policy</a>
+                    </li>
+                    
+                    
+                    
+                    <li class="nav-item pr-2">
+                        <a class="pl-0 nav-link" href="#">Terms of Sale</a>
+                    </li>
+
+                    <li class="nav-item pr-2">
+                        <a class="pl-0 nav-link" href="#">Archive</a>
+                    </li>
+                    <li class="nav-item pr-2">
+                        <a class="pl-0 nav-link" href="#">Announcements</a>
+                    </li>
+                    <li class="nav-item pr-2">
+                        <a class="pl-0 nav-link" href="#">Consent preferences</a>
+                    </li>
+                </ul>
+            </div>
+    
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    </body>
+</html>

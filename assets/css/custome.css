@@ -1,0 +1,342 @@
+body {
+  width: 95%;
+  margin: auto;
+}
+
+.subscribe-button {
+  background-color: #ffe400;
+  color: black;
+  border-radius: 24px;
+  align-items: center;
+}
+
+.navbar-button {
+  margin-top: 26px;
+  text-align: right;
+}
+
+@media (max-width: 992px) {
+  .navbar-button {
+    margin-top: 0;
+  }
+
+  .subscribe-button {
+    padding: 4px;
+    font-size: 12px;
+  }
+
+  .responsive-log1 img {
+    margin-top: 7px;
+    width: 138px;
+  }
+}
+
+.custom-row-margin {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.red-header {
+  background-color: #ea4e2a;
+}
+
+footer a {
+  color: #6c757d;
+}
+
+.red-header a {
+  color: white;
+}
+
+.responsive-log {
+  margin-top: 7px;
+  width: 200px;
+  height: auto;
+}
+
+.color-white {
+  color: white;
+}
+
+.header-sign {
+  position: absolute;
+  top: -2px;
+  right: 0;
+  width: 75px;
+  height: 13px;
+  background-color: #ea4e2a;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 20% 100%);
+}
+
+.imputSearch {
+  border: none;
+  width: 50px;
+  background: #faf9fa;
+  margin-top: 5px;
+}
+
+.fa-search {
+  position: absolute;
+  margin-top: 9px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: red;
+}
+
+.card-body {
+  padding: 0.5rem;
+}
+
+.feature a {
+  color: black;
+  font-weight: 600;
+}
+
+.feature p {
+  font-size: 15px;
+  line-height: 20px;
+  color: #333;
+}
+
+.social a {
+  font-size: 26px;
+}
+
+.turn a {
+  padding: 15px 0 20px;
+  text-decoration: none;
+  font: bold 16px/19px "Roboto Condensed", sans-serif;
+  color: rgba(3, 3, 3, 0.5);
+  margin-bottom: 10px;
+}
+
+footer img {
+  width: 204px;
+  height: 46px;
+}
+
+.label-2 a {
+  color: #f72210;
+  text-decoration: none;
+}
+
+.magazine-style a {
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #494e52;
+}
+
+.more-stories h4 a {
+  font-size: 17px;
+  color: black;
+  font-weight: 600;
+}
+
+.more-stories2 h4 a {
+  font-size: 15px;
+  color: black;
+  font-weight: 700;
+}
+
+.feature a:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+.block-title {
+  margin-top: 18px;
+  font: bold 16px/16px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  padding-bottom: 11px;
+  color: rgba(3, 3, 3, 0.4);
+}
+
+.card-image-position {
+  position: relative;
+}
+
+.card-image-position img {
+  cursor: pointer;
+}
+
+.tag {
+  color: #f72210;
+  background-color: #ffffffe6;
+  font: bold 17px/16px "Roboto Condensed", sans-serif;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 30px;
+  padding: 8px 15px 9px;
+}
+
+.carticlesHeader {
+  font-size: 12px;
+  line-height: 0.5rem;
+  color: #757575;
+  cursor: pointer;
+}
+
+.formHeader {
+  font-size: 16px;
+  line-height: 1rem;
+  color: #757575;
+  cursor: pointer;
+}
+
+.carticlesHeader:hover {
+  text-decoration: none;
+}
+
+.line-heig {
+  line-height: 0.7rem;
+  font-size: 15px;
+  font-style: capitalize;
+}
+
+.more-stories {
+  display: flex;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border-top: 1px solid #ddd;
+}
+
+.more-stories p {
+  font-size: 15px;
+  line-height: 16px;
+  color: #333;
+}
+
+.more-stories img {
+  margin-top: 10px;
+}
+
+.more-stories h4 {
+  line-height: 0.56em;
+}
+
+.section-right-anchor-tag a:hover {
+  text-decoration: none;
+  color: red;
+}
+
+.more-stories h4 a:hover {
+  text-decoration-color: red;
+}
+
+.more-stories2 {
+  display: flex;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid #ddd;
+}
+
+.more-stories2 h4 {
+  line-height: 0.56em;
+}
+
+.more-stories span {
+  font-size: 15px;
+  line-height: 16px;
+  color: #333;
+}
+
+.borderTop {
+  border-top: 3px solid rgba(235, 36, 79, 0.863);
+  border-bottom: 1px solid #ddd;
+}
+
+.borderBot {
+  border-bottom: 3px solid rgb(0, 204, 255);
+}
+
+.circleVs {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  transform: translateY(-15px);
+}
+
+.card {
+  border: none;
+}
+
+.logo {
+  display: block;
+  width: 45px;
+  height: 35px;
+  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+}
+
+.label {
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.flex-h {
+  display: flex;
+}
+
+.label-1 {
+  background-color: #f72210;
+  color: #fff;
+  padding: 5px 10px;
+}
+
+.label-2 {
+  margin-left: 10px;
+  padding-top: 6px;
+}
+
+.magazine-style {
+  text-align: center;
+  background-color: #f4f5f6;
+}
+
+.magazine-style:hover {
+  background-color: #dbdcdd;
+}
+
+.section-heading {
+  color: red;
+  font-size: 1.3em;
+  font-weight: 900;
+}
+
+.position-relative {
+  max-width: 260px;
+  margin: auto;
+}
+
+.second-image {
+  top: 10px;
+  left: 80px;
+  height: 227px;
+}
+
+.buttons {
+  background-color: #f72210;
+  color: #f8f9fa !important;
+}
+
+.signup-image {
+  width: 76px;
+}
+
+.form-div {
+  background-color: #f4f5f6;
+  padding: 13px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.form-div h1 {
+  font-size: 15px;
+}
+
+.display-none {
+  display: none;
+}
